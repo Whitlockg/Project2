@@ -1,0 +1,179 @@
+option {
+  color:  black;
+}
+
+.leftdropdown {
+  padding-top: 35px;
+  color: black;
+}
+
+.rightdropdown {
+  color: black;
+  float: left;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  overflow: auto;
+  bottom: 0px;
+  top: 20px;
+  width: 100%;
+}
+
+#mapid {
+  height: 550px;
+  padding-top: 20px;
+}
+
+.leafletmap { 
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  bottom:5px;
+ }
+
+
+
+.btn {
+  float: right;
+}
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      color: black;
+    }
+
+    .navbar-title {
+      color: white;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      height: 620px;
+    }
+    
+  
+    .sidenav {
+      padding-top: 20px;
+      background-color: black;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 1500px) {
+      .sidenav {
+        height: auto;
+        padding: 10px;
+        width: 20%;
+      }
+      .row.content {height:auto;} 
+    } 
+
+.rtable {
+  table-layout: auto;
+  width: 100%;
+}
+
+.stackedbar {
+  position: absolute;
+  height: 50%;
+  top:0px;
+  padding-bottom: 5px;
+  background-color: darkgrey;
+  width: 100%;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.timeseriesplot {
+  position: absolute;
+  height: 50%;
+  bottom:0px;
+  background-color:grey;
+  padding-top: 5px;
+  width: 100%;
+  padding-right: 5px;
+}
+
+#tsplot {
+  bottom:0px;
+  background-color:grey;
+  padding-top: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.totals {
+  position: absolute;
+  height: 15%;
+  top:0px;
+  border: black;
+  padding-top: 5px;
+  text-align: left;
+  width: 100%;
+  overflow: auto;
+}
+
+.ctotals {
+  position: relative;
+  height: 15%;
+  top:40px;
+  border: black;
+  text-align: left;
+  width: 100%;
+  overflow: auto;
+}
+
+html {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:auto;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: auto;
+  }
+  
+  th, td {
+    text-align: left;
+    color: white;
+    padding: 8px;
+  }
+  
+  tbody>tr:nth-child(even){background-color: whitesmoke !important}
+  tbody>tr:nth-child(odd){background-color:silver !important}
+  
+  /* ol { 
+    font-weight: bold;
+  }
+  
+  ol.span1 { 
+    font-weight: normal; 
+  }
+  
+  ol.span2 { 
+    font-weight: normal; 
+  } */
+
+  /*TUTOR! the three above are not working in the separate css file, so I did them inline
