@@ -1,3 +1,7 @@
+.load-button {
+  padding-bottom: 20px;
+}
+
 option {
   color:  black;
 }
@@ -7,17 +11,24 @@ option {
   color: black;
 }
 
+.table-div {
+  color: black;
+  width: 100%;
+  overflow: auto;
+}
+
 .rightdropdown {
   color: black;
   float: left;
 }
 
-.my-custom-scrollbar {
+.my-custom-scrollbar-primary {
   position: relative;
   overflow: auto;
   bottom: 0px;
   top: 20px;
   width: 100%;
+  font-color:black;
 }
 
 #mapid {
@@ -79,9 +90,12 @@ option {
       .row.content {height:auto;} 
     } 
 
-.rtable {
+#cases_table {
   table-layout: auto;
   width: 100%;
+  overflow: auto;
+  height: 400px;
+  color: black;
 }
 
 .stackedbar {
@@ -161,19 +175,5 @@ html {
     padding: 8px;
   }
   
-  tbody>tr:nth-child(even){background-color: whitesmoke !important}
-  tbody>tr:nth-child(odd){background-color:silver !important}
-  
-  /* ol { 
-    font-weight: bold;
-  }
-  
-  ol.span1 { 
-    font-weight: normal; 
-  }
-  
-  ol.span2 { 
-    font-weight: normal; 
-  } */
-
-  /*TUTOR! the three above are not working in the separate css file, so I did them inline
+  tbody>tr:nth-child(even){background-color: #404040 !important}
+  tbody>tr:nth-child(odd){background-color:#212121 !important}
