@@ -16,7 +16,7 @@
 
 
 $(document).ready(function(){
-    $('#load_data').click(function(){
+    $('#selDataset').dropdown(function(){
      $.ajax({
       url:"../../Final_Dataset/Cases_table.csv",
       dataType:"text",
