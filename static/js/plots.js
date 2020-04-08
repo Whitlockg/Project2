@@ -1,7 +1,7 @@
 
 async function ebola_data() {
     const cases = {}
-    const response = await fetch('../data/final_ebola.csv');
+    const response = await fetch('../static/data/final_ebola.csv');
     const data = await response.text();
     const table = data.split(/\n/).slice(1);
     table.map((row) => {
@@ -38,7 +38,7 @@ ebola_data();
 
 async function sars(){
     const sarscases = {};
-    const response = await fetch('final_sars.csv');
+    const response = await fetch('../data/final_sars.csv');
     const data2 = await response.text();
     const row2 = data2.split(/\n/).slice(1);
     table.map(row2 => {
@@ -67,7 +67,7 @@ async function sars(){
 }
 
 function plotCoronavirus(){
-    Plotly.d3.csv('corona_virus_timeseries.csv', (data) => {
+    Plotly.d3.csv('../data/corona_virus_timeseries.csv', (data) => {
         formatData(data);
         console.log("--Data", data);
         stackGraphForCoronavirus(data);
