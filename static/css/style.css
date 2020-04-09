@@ -86,8 +86,8 @@ option {
       .row.content {height:auto;} 
     } 
 
-#cases_table {
-  table-layout: auto;
+#countries_table {
+  table-layout: fixed;
   width: 100%;
   overflow: auto;
   height: 400px;

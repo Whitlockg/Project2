@@ -77,17 +77,15 @@
       <!--want to make a table with scroll bar with will populate data called in app; 
       will use dropdown box to select three different datasets-->
       <div class="leftdropdown">
-        <div class="load-button">
-          <button type="button" name="load_data" id="load_data" class="btn btn-info">Total Cases</button>
-         </div>
         <div >
-      <!-- <select id="selDataset">
-        <option id="cases">Cases</option>
-        <option value="recovered">Recovered</option>
-        <option value="deaths">Deaths</option>
-      </select> -->
-          <div id="cases_table"></div>
-              <!-- <table id="summary-table" class="table table-striped table-inverse table-dark"> -->
+      <select id="selDataset" class ="filter-btn">
+        <option value="num_cases">Cases</option>
+        <option value="num_recovered">Recovered</option>
+        <option value="num_deaths">Deaths</option>
+      </select>
+          <table id="countries_table">
+            <tbody></tbody>
+          </table>
                 <!--will need this id from js-->
                 <!-- <thead class="rtable">
                   <tr>
